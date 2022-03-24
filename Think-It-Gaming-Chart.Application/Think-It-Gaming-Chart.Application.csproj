@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Think_It_Gaming_Chart.Application</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="MediatR" />
+    <None Remove="AutoMapper" />
+    <None Remove="Responses\" />
+    <None Remove="Responses\Base\" />
+    <None Remove="Queries\" />
+    <None Remove="Mapper\" />
+    <None Remove="Handlers\" />
+    <None Remove="Handlers\QueryHandlers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Responses\" />
+    <Folder Include="Responses\Base\" />
+    <Folder Include="Queries\" />
+    <Folder Include="Mapper\" />
+    <Folder Include="Handlers\" />
+    <Folder Include="Handlers\QueryHandlers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Think-It-Gaming-Chart.Core\Think-It-Gaming-Chart.Core.csproj" />
+  </ItemGroup>
+</Project>

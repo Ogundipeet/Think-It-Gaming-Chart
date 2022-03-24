@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Think_It_Gaming_Chart.Core</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Repositories\" />
+    <None Remove="Repositories\Queries\" />
+    <None Remove="Repositories\Queries\Base\" />
+    <None Remove="Entities\" />
+    <None Remove="Entities\Base\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+    <Folder Include="Repositories\Queries\" />
+    <Folder Include="Repositories\Queries\Base\" />
+    <Folder Include="Entities\" />
+    <Folder Include="Entities\Base\" />
+  </ItemGroup>
+</Project>

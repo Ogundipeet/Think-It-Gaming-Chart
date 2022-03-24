@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.20
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Think-It-Gaming-Chart.API", "Think-It-Gaming-Chart.API\Think-It-Gaming-Chart.API.csproj", "{1FE43F89-C2E4-4185-B9B5-909822808AA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Think-It-Gaming-Chart.Application", "Think-It-Gaming-Chart.Application\Think-It-Gaming-Chart.Application.csproj", "{68069EBD-8CC2-4163-8DC9-023807F35671}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Think-It-Gaming-Chart.Core", "Think-It-Gaming-Chart.Core\Think-It-Gaming-Chart.Core.csproj", "{DFA86CFD-CF8D-4C77-8F45-AC5AF489B01E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Think-It-Gaming-Chart.Infrastructure", "Think-It-Gaming-Chart.Infrastructure\Think-It-Gaming-Chart.Infrastructure.csproj", "{2618E26C-B8CF-4C5D-9249-21B1DDC4328C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Think-It-Gaming-Chart.UnitTests", "Think-It-Gaming-Chart.UnitTest\Think-It-Gaming-Chart.UnitTests.csproj", "{8F9B87CF-0DDC-4BEA-948A-B9029ECE906B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FE43F89-C2E4-4185-B9B5-909822808AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE43F89-C2E4-4185-B9B5-909822808AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE43F89-C2E4-4185-B9B5-909822808AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE43F89-C2E4-4185-B9B5-909822808AA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68069EBD-8CC2-4163-8DC9-023807F35671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68069EBD-8CC2-4163-8DC9-023807F35671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68069EBD-8CC2-4163-8DC9-023807F35671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68069EBD-8CC2-4163-8DC9-023807F35671}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA86CFD-CF8D-4C77-8F45-AC5AF489B01E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA86CFD-CF8D-4C77-8F45-AC5AF489B01E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA86CFD-CF8D-4C77-8F45-AC5AF489B01E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA86CFD-CF8D-4C77-8F45-AC5AF489B01E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2618E26C-B8CF-4C5D-9249-21B1DDC4328C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2618E26C-B8CF-4C5D-9249-21B1DDC4328C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2618E26C-B8CF-4C5D-9249-21B1DDC4328C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2618E26C-B8CF-4C5D-9249-21B1DDC4328C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F9B87CF-0DDC-4BEA-948A-B9029ECE906B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F9B87CF-0DDC-4BEA-948A-B9029ECE906B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F9B87CF-0DDC-4BEA-948A-B9029ECE906B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F9B87CF-0DDC-4BEA-948A-B9029ECE906B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDBDFE56-3B40-4A0A-82DC-388BD0136AAE}
+	EndGlobalSection
+EndGlobal
